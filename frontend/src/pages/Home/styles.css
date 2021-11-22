@@ -1,0 +1,157 @@
+.home-content {
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.home-banner {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 20px 0 21px;
+}
+
+.home-banner-image img {
+  width: 244px;
+  height: 100%;
+  margin: 62px 28px 35px;
+}
+
+.home-banner-container h6 {
+  font-size: 1em;
+  margin: 0 20px 13px;
+}
+
+.home-banner-container p {
+  font-size: 0.6em;
+  line-height: 1.2;
+  margin: 0 20px 51px;
+}
+
+.home-banner,
+.home-button {
+  border-radius: 10px;
+}
+
+.home-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-button button {
+  width: 174px;
+  height: 40px;
+  margin-top: 28px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  font-size: 0.65em;
+  font-weight: bold;
+}
+
+.home-button p {
+  margin: 0 50px 25px 50px;
+  font-size: 0.8em;
+  color: rgba(88, 88, 88, 1);
+}
+
+@media (min-width: 576px) {
+  .home-banner-image img {
+    width: 333px;
+    height: 100%;
+    margin: 22px 101px 19px;
+  }
+
+  .home-banner-container h6 {
+    width: 420px;
+    font-size: 36px;
+  }
+
+  .home-banner-container p {
+    width: 420px;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .home-button {
+    flex-direction: row;
+    align-content: center;
+    height: 123px;
+  }
+
+  .home-button button {
+    margin: 0 16px 0 88px;
+  }
+
+  .home-button p {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+    .home-banner-image img {
+      width: 333px;
+      height: 100%;
+      margin: 79px 198px 37px;
+    }
+
+    .home-banner-container p {
+        margin-bottom: 76px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-banner-image img {
+      width: 455px;
+      height: 100%;
+      margin: 82px 248px 17px;
+    }
+
+    .home-banner-container p {
+        margin-bottom: 124px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-banner-image img {
+      width: 455px;
+      height: 100%;
+      margin: 82px 248px 17px;
+    }
+
+    .home-banner-container p {
+        margin-bottom: 124px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .home-content {
+        padding: 30px 150px;
+      }
+
+    .home-banner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 365px;
+      }
+
+    .home-banner-image img {
+      width: 333px;
+      height: 100%;
+      margin: 0;
+    }
+
+    .home-banner-container {
+        align-items: center;
+        text-align: left;
+        margin-right: 63px;
+    }
+
+    .home-banner-container h6, .home-banner-container p {
+        margin: 0;
+        padding: 0;
+    }
+}
