@@ -2,7 +2,6 @@ import './styles.css';
 
 const Searchbar = () => {
   return (
-    <>
       <div className="search-container bg-light">
         <input
           type="search"
@@ -14,7 +13,6 @@ const Searchbar = () => {
           Buscar
         </button>
       </div>
-    </>
   );
 };
 

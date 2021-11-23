@@ -1,11 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Carcard from './components/Carcard';
+import Catalog from './pages/Catalog';
 
 function App() {
   return (
     <>
-      <Carcard />
+      <Catalog />
     </>
   );
 }

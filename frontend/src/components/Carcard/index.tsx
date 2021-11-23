@@ -12,8 +12,8 @@ export default function Carcard() {
       <div className="car-content-text">
         <h6>Audi Supra TT</h6>
         <p>
-          Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa
-          gentis num é.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          nisi
         </p>
       </div>
       <button className="btn btn-primary car-content-button">Comprar</button>
