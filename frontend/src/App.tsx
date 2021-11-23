@@ -1,12 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from './pages/Home';
-import Searchbar from './components/Searchbar';
+import Carcard from './components/Carcard';
 
 function App() {
   return (
     <>
-      <Searchbar />
+      <Carcard />
     </>
   );
 }

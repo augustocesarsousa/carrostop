@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.car-content-img {
+  width: 220px;
+  height: auto;
+  margin: 14px 0 8px;
+}
+
+.car-content-text h6 {
+  font-size: 18px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.car-content-text p {
+  width: 264px;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 38px;
+}
+
+.car-content-button {
+    width: 260px;
+    margin-bottom: 15px;
+}
